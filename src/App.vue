@@ -1,3 +1,4 @@
+
 <script setup lang="ts">
 import { useRouter, RouterView } from 'vue-router';
 
@@ -8,3 +9,4 @@ router.replace('/');
 <template>
   <RouterView />
 </template>
+
