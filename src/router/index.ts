@@ -1,15 +1,15 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import HomePage from '../pages/HomePage.vue'
-import AboutPage from '../pages/AboutPage.vue'
 
-const routes: Array<RouteRecordRaw> = [
-  { path: '/', component: HomePage },
-  { path: '/about', component: AboutPage }
-]
+import { createRouter, createWebHistory } from 'vue-router';
+import HomePage from '../pages/HomePage.vue';
+
+const routes = [
+  { path: '/', component: HomePage }
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
+

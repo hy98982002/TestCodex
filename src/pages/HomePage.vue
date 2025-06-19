@@ -1,14 +1,8 @@
 <template>
-  <div class="home-page">
-    <h1>Home Page</h1>
-  </div>
+
+  <div>欢迎来到 UAI 平台！</div>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 </script>
 
-<style scoped>
-.home-page {
-  padding: 1rem;
-}
-</style>
